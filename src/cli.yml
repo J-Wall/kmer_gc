@@ -1,0 +1,25 @@
+name: kmer_gc
+version: "0.1.0"
+author: Jesse R.A.W. <jesse.rudolf.wallace@gmail.com>
+about: Generates a 2d histogram of GC content vs k-mer counts
+args:
+    - nbins:
+        short: n
+        long: nbins
+        value_name: N
+        default_value: "1000"
+        help: Number of bins in k-mer dimension (memory use will be O(NK), where K is k-mer length)
+    - k:
+        short: k
+        value_name: K
+        required: true
+    - sep:
+        short: s
+        long: sep
+        value_name: SEPARATOR
+        default_value: " "
+        help: Separator for output
+    - INPUT:
+        help: Input file (with k-mer in 1st column and counts in 2nd column)
+        required: true
+        index: 1

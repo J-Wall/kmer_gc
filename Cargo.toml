@@ -2,7 +2,7 @@
 name = "kmer_gc"
 version = "0.1.0"
 authors = ["Jesse Wallace <jesse.wallace@anu.edu.au>"]
-license = "MIT or Apache-2.0"
+license = "MIT OR Apache-2.0"
 description = "Creates a 2D histogram of GC content vs K-mer counts"
 readme = "README.md"
 homepage = "https://github.com/J-Wall/kmer_gc"

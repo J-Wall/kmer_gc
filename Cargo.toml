@@ -7,7 +7,6 @@ description = "Creates a 2D histogram of GC content vs K-mer counts"
 readme = "README.md"
 homepage = "https://github.com/J-Wall/kmer_gc"
 repository = "https://github.com/J-Wall/kmer_gc"
-keywords = ["gc content", "kmer"]
 categories = ["command-line-utilities"]
 
 [dependencies]

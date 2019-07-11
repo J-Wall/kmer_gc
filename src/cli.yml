@@ -1,6 +1,6 @@
 name: kmer_gc
-version: "0.1.0"
-author: Jesse R.A.W. <jesse.rudolf.wallace@gmail.com>
+version: "0.1.1"
+author: Jesse Wallace <jesse.wallace@anu.edu.au>
 about: Generates a 2d histogram of GC content vs k-mer counts
 args:
     - nbins:

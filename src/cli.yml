@@ -1,5 +1,5 @@
 name: kmer_gc
-version: "0.1.1"
+version: "0.1.2"
 author: Jesse Wallace <jesse.wallace@anu.edu.au>
 about: Generates a 2d histogram of GC content vs k-mer counts
 args:

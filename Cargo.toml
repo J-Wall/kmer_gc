@@ -1,6 +1,6 @@
 [package]
 name = "kmer_gc"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Jesse Wallace <jesse.wallace@anu.edu.au>"]
 license = "MIT OR Apache-2.0"
 description = "Creates a 2D histogram of GC content vs K-mer counts"
@@ -8,6 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/J-Wall/kmer_gc"
 repository = "https://github.com/J-Wall/kmer_gc"
 categories = ["command-line-utilities"]
+edition = "2018"
 
 [dependencies]
 clap = {version = "2.33.0", features = ["yaml"]}
